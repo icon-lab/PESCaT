@@ -81,7 +81,7 @@ maskedData = imageFFT.*mask;
 %% Create PESCaT instance
 % A PESCaT object is instantiated with the default properties. These can be
 % modified by passing extra arguments to the object instantiator.
-pobj = PESCaT(maskedData,sampling, 'verbose', 1);
+pobj = PESCaT(maskedData,sampling);
 
 %% Perfrorm reconstruction
 % The reconPESCaT method performs the reconstruction on the data passed to
